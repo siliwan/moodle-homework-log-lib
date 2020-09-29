@@ -27,7 +27,7 @@ namespace Roamingstone.MoodleLog.HomeworkLog
         public string UserAgent { get; set; } = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.125";
 
         /// <summary>
-        /// Class for interacting with the log of a moodle site
+        /// Class for interacting with the log of a moodle site.
         /// </summary>
         /// <param name="siteurl">Url of the moodle site. If no http schema is given, https:// will be prepended.</param>
         /// <example>https://moodle.kwb.ch</example>
@@ -196,7 +196,7 @@ namespace Roamingstone.MoodleLog.HomeworkLog
         }
 
         /// <summary>
-        /// Gets the contents of the log
+        /// Gets the contents of the log.
         /// </summary>
         /// <param name="moodleSession"></param>
         /// <param name="logId"></param>
@@ -236,7 +236,7 @@ namespace Roamingstone.MoodleLog.HomeworkLog
         }
 
         /// <summary>
-        /// Gets the content of the log
+        /// Gets the content of the log.
         /// </summary>
         /// <param name="moodleSession"></param>
         /// <param name="logId"></param>
