@@ -2,7 +2,7 @@
 
 A C# library, that lets you interact with (partially) the moodle backend and write to a log with a given id.
 
-Libraries: 
+Libraries:
 - C# .Net Standard 2.0
 - HtmlAgilityPack 1.11 (Provided by nuget package, must be included in all applications depending on this library)
 
@@ -32,7 +32,7 @@ Cookie moodleSession = homeworkLogManager.Login("username", "password");
 
 ```
 
-2. Get the sessionkey
+2. Get the session key
 
 ```C#
 
